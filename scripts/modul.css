@@ -1,0 +1,110 @@
+#honeycomb article{min-width:937px;margin:0 auto}
+.all-backend-apiwrap-inn div{
+		-webkit-transition:opacity .6s ease-in-out;
+		-moz-transition:opacity .6s ease-in-out;
+		-o-transition:opacity .6s ease-in-out;
+		-ms-transition:opacity .6s ease-in-out;
+		transition:opacity .6s ease-in-out}
+.apis-wrap{
+	width:130px;
+	height:135px;
+	position:relative;
+	display:inline-block;
+	margin-top:-23px}
+
+
+@media (min-width:937px){
+	.apis-wrap:nth-child(8){margin-left:5.3px}
+	.apis-wrap:nth-child(21){margin-left:1px}
+	.apis-wrap:nth-child(18){margin-left:0}
+	.apis-wrap:nth-child(n+5){margin-top:-23px}}
+@media (max-width:900px){
+	.apis-wrap:nth-child(8){margin-left:5.3px}
+	.apis-wrap:nth-child(21){margin-left:1px}
+	.apis-wrap:nth-child(18){margin-left:0}
+	.apis-wrap:nth-child(n+7){margin-top:-23px}}
+
+.devcenter_sdks { width: 100%; }
+.devcenter_sdks ul { padding: 0; list-style: none!important; }
+.devcenter_sdks ul li { width: 85px; height: 85px; margin-bottom: 25px; display: inline-block; margin: 1em 0.5em 1.2em 0.7em; -moz-transition: top .15s ease-in-out; -webkit-transition: top .15s ease-in-out; -o-transition: top .15s ease-in-out; -ms-transition: top .15s ease-in-out; transition: top .15s ease-in-out; }
+
+/*  ####################################################   PLATFORM   ################################################## */
+.androidSdk, .bb10, .csharpSdk, .flashSdk, .grailsPlugin, .html5Sdk, .iOSSdk, .j2meSdk, .javaSdk, .jsSdk, .marmaladeSdk, .monoSdk, .phpSdk, .rubySdk, .smartTvSdk, .unity3dSdk, .windowSdk, .appmethodSdk { width: 85px; height: 85px }
+.androidSdk { background-image: url(../gambar/platforms/android-hover.png); background-repeat: repeat; background-position: left top }
+.androidSdk a, .androidSdk a:link, .androidSdk a:visited { display: block; width: 85px; height: 85px }
+.androidSdk a:hover img { visibility: hidden }
+.bb10 { background-image: url(../gambar/platforms/blackberry10-hover.png); background-repeat: repeat; background-position: left top }
+.bb10 a, .bb10 a:link, .bb10 a:visited { display: block; width: 85px; height: 85px }
+.bb10 a:hover img { visibility: hidden }
+.iOSSdk { background-image: url(../gambar/platforms/iOS-hover.png); background-repeat: repeat; background-position: left top }
+.iOSSdk a, .iOSSdk a:link, .iOSSdk a:visited { display: block; width: 85px; height: 85px }
+.iOSSdk a:hover img { visibility: hidden }
+.smartTvSdk { background-image: url(../gambar/platforms/smartTv-hover.png); background-repeat: repeat; background-position: left top }
+.smartTvSdk a, .smartTvSdk a:link, .smartTvSdk a:visited { display: block; width: 85px; height: 85px }
+.smartTvSdk a:hover img { visibility: hidden }
+.windowSdk { background-image: url(../gambar/platforms/window-hover.png); background-repeat: repeat; background-position: left top }
+.windowSdk a, .windowSdk a:link, .windowSdk a:visited { display: block; width: 85px; height: 85px }
+.windowSdk a:hover img { visibility: hidden }
+
+/*  ####################################################   PROGRAMMING   ################################################## */
+.csharpSdk { background-image: url(../gambar/programming/csharp-hover.png); background-repeat: repeat; background-position: left top }
+.csharpSdk a, .csharpSdk a:link, .csharpSdk a:visited { display: block; width: 85px; height: 85px }
+.csharpSdk a:hover img { visibility: hidden }
+.html5Sdk { background-image: url(../gambar/programming/html5-hover.png); background-repeat: repeat; background-position: left top }
+.html5Sdk a, .html5Sdk a:link, .html5Sdk a:visited { display: block; width: 85px; height: 85px }
+.html5Sdk a:hover img { visibility: hidden }
+.j2meSdk { background-image: url(../gambar/programming/j2me-hover.png); background-repeat: repeat; background-position: left top }
+.j2meSdk a, .j2meSdk a:link, .j2meSdk a:visited { display: block; width: 85px; height: 85px }
+.j2meSdk a:hover img { visibility: hidden }
+.javaSdk { background-image: url(../gambar/programming/java-hover.png); background-repeat: repeat; background-position: left top }
+.javaSdk a, .javaSdk a:link, .javaSdk a:visited { display: block; width: 85px; height: 85px }
+.javaSdk a:hover img { visibility: hidden }
+.jsSdk { background-image: url(../gambar/programming/js-hover.png); background-repeat: repeat; background-position: left top }
+.jsSdk a, .jsSdk a:link, .jsSdk a:visited { display: block; width: 85px; height: 85px }
+.jsSdk a:hover img { visibility: hidden }
+.phpSdk { background-image: url(../gambar/programming/php-hover.png); background-repeat: repeat; background-position: left top }
+.phpSdk a, .phpSdk a:link, .phpSdk a:visited { display: block; width: 85px; height: 85px }
+.phpSdk a:hover img { visibility: hidden }
+.rubySdk { background-image: url(../gambar/programming/ruby-hover.png); background-repeat: repeat; background-position: left top }
+.rubySdk a, .rubySdk a:link, .rubySdk a:visited { display: block; width: 85px; height: 85px }
+.rubySdk a:hover img { visibility: hidden }
+
+/*  ####################################################   TOOLS   ################################################## */
+
+.cocos2dx { background-image: url(../gambar/tools/cocos2dx-hover.png); background-repeat: repeat; background-position: left top }
+.cocos2dx a, .cocos2dx a:link, .cocos2dx a:visited { display: block; width: 85px; height: 85px }
+.cocos2dx a:hover img { visibility: hidden }
+.corona { background-image: url(../gambar/tools/corona-hover.png); background-repeat: repeat; background-position: left top }
+.corona a, .corona a:link, .corona a:visited { display: block; width: 85px; height: 85px }
+.corona a:hover img { visibility: hidden }
+.flashSdk { background-image: url(../gambar/tools/flash-hover.png); background-repeat: repeat; background-position: left top }
+.flashSdk a, .flashSdk a:link, .flashSdk a:visited { display: block; width: 85px; height: 85px }
+.flashSdk a:hover img { visibility: hidden }
+.marmaladeSdk { background-image: url(../gambar/tools/marmalade-hover.png); background-repeat: repeat; background-position: left top }
+.marmaladeSdk a, .marmaladeSdk a:link, .marmaladeSdk a:visited { display: block; width: 85px; height: 85px }
+.marmaladeSdk a:hover img { visibility: hidden }
+.monoSdk { background-image: url(../gambar/tools/monotouch-hover.png); background-repeat: repeat; background-position: left top }
+.monoSdk a, .monoSdk a:link, .monoSdk a:visited { display: block; width: 85px; height: 85px }
+.monoSdk a:hover img { visibility: hidden }
+.rad-studioSdk { background-image: url(../gambar/tools/rad-studio-hover.png); background-repeat: repeat; background-position: left top }
+.rad-studioSdk a, .rad-studioSdk a:link, .rad-studioSdk a:visited { display: block; width: 85px; height: 85px }
+.rad-studioSdk a:hover img { visibility: hidden }
+.unity3dSdk { background-image: url(../gambar/tools/unity3d-hover.png); background-repeat: repeat; background-position: left top }
+.unity3dSdk a, .unity3dSdk a:link, .unity3dSdk a:visited { display: block; width: 85px; height: 85px }
+.unity3dSdk a:hover img { visibility: hidden }
+
+/*  ####################################################   OTHERS   ################################################## */
+.appmethodSdk { background-image: url(../gambar/resources/appmethod-hover.png); background-repeat: repeat; background-position: left top }
+.appmethodSdk a, .appmethodSdk a:link, .appmethodSdk a:visited { display: block; width: 85px; height: 85px }
+.appmethodSdk a:hover img { visibility: hidden }
+.resource_ctr_h { font-family: "Myriad Pro", Gotham, Helvetica Neu, Helvetica, Arial, sans-serif; font-size: 25px; color: #272626; font-weight: 400!important; margin: 0!important; padding: 0!important }
+.resource_ctr { background-image: url(../gambar/resources/resource_center_hover.png); background-repeat: repeat; background-position: left top }
+.resource_ctr a, .resource_ctr a:link, .resource_ctr a:visited { display: block; width: 85px; height: 85px }
+.resource_ctr a:hover img { visibility: hidden }
+.grailsPlugin { background-image: url(../gambar/resources/grails-plugins-hover.png); background-repeat: repeat; background-position: left top }
+.grailsPlugin a, .grailsPlugin a:link, .grailsPlugin a:visited { display: block; width: 85px; height: 85px }
+.grailsPlugin a:hover img { visibility: hidden }
+
+.concepts_wrap { border-bottom: 1px solid #949494; padding-top: 20px; padding-bottom: 20px; }
+.concepts_wrap h2 { font-family: "Myriad Pro", Gotham, Helvetica Neu, Helvetica, Arial, sans-serif; font-size: 27px; color: #272626; font-weight: 400!important }
+.conceptBased_game { margin-top: 18px; text-align: center; }

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Akakom Dev Center</title>
+<!-- Basic -->
+   <meta charset="utf-8">
+   <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon" />
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+   <meta name="Description" content="Free tutorials and reference for Desktop, Game, Mobile and Web Development"/>
+   <meta name="Keywords" content="ADC, AKAKOM, Akakom Dev Center, STMIK AKAKOM, Moduul, Article, Latest, Technologies, Free,  Tutorials, References, Examples"/>
+   <meta name="author" content="Akakom Dev Center">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+<!-- Web Fonts  -->
+   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+<!-- CSS -->
+   <link rel="stylesheet" href="../../theme/css/fonts/font-awesome/css/font-awesome.css">
+   <link rel="stylesheet" href="../../theme/css/custom.css"/>
+   <link rel="stylesheet" href="../../theme/css/theme-responsive.css" />
+   <link rel="stylesheet" type="text/css" href="../../theme/colorbox.css" />
+   <link rel="stylesheet" type="text/css" href="../../theme/prettify.css" />
+
+   <link rel="stylesheet" type="text/css" href="../scripts/style.css" />
+   <link rel="stylesheet" type="text/css" href="../scripts/prettify.css" />
+<!-- JS -->
+   <script type="text/javascript" src="../../theme/prettify.js"></script>
+   <script type="text/javascript" src="../../theme/vendor/modernizr.js"></script>
+   <script type="text/javascript" src="../scripts/jquery.min.js"></script>
+   <script type="text/javascript" src="../scripts/mobile.js"></script>
+<!-- CSS related changes -->
+   <style  media="screen" type="text/css">
+      div.feature-box div.feature-box-icon,
+      .col-md-3 .course-box, header nav ul.nav-main ul.dropdown-menu, 
+      nav.mega-menu .mega-menu-signin .dropdown-menu li, footer div.footer-ribon, div.footer-copyright, 
+      li.heading, header nav ul.nav-main li.dropdown:hover a {
+         background-color: #316441 !important;
+      }
+      .selected-reading-boxes .col-md-3 .course-box{
+        background-color: transparent !important;
+      }
+      img.mobile-apps {
+         border: 1px solid #202020 !important;
+      }
+      footer ul.list li{
+         background: none !important;
+         padding: 0px;
+      }
+      p a, footer i.icon, footer ul.list.icons li i {
+         color: #FFF !important;
+      }
+      #topmenu{
+        background-color:#666666 !important;
+      }
+      #leftcol ul.menu li.heading {
+        background:#7bae16 !important;
+        border:1px solid #666666 !important;
+      }
+      #middlecol  {
+        min-height:1500px; padding:0px;
+      }
+      #sidebar{
+          width: 200px;
+          height: 1000px;
+          border: 0px solid #000;
+          overflow: hidden;
+          padding-right: 5px;
+      }
+      #sidebar #scroller{
+          width: 215px;
+          height: 1000px;
+          padding-bottom: 15px;
+          overflow: scroll; 
+      }
+   </style>
+</head>
+
+<body onload="prettyPrint()">
+<div class="body">
+
+<!-- HEADER -->
+   <header>
+      <div class="container">
+   <!-- Logo -->
+         <h1 class="logo">
+            <a href="../../index.html">
+               <img alt="Akakom Dev Center" src="../../images/logo.png">
+            </a>
+         </h1>
+   <!-- Search -->
+         <div class="search">
+               <form method="get" id="searchform" name="searchform" action="http://www.google.com/search">
+                  <input type="hidden" name="sitesearch" value=""/>
+                  <div class="input-group">
+                        <input type="text" class="form-control search" name="q" id="q" placeholder="Search your tutorials..." onfocus="if (this.value == 'Search your tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your tutorials...';}"/>
+                        <!-- 
+                        <input value="FORID:11" name="cof" type="hidden"/>
+                        <input type="hidden" name="ie" value="ISO-8859-1" />
+                        --> 
+                        <span class="input-group-btn">
+                          <button class="btn btn-default" type="submit"></button>
+                        </span>
+                  </div>
+               </form>
+         </div>
+   <!-- Social Icons -->
+         <div class="social-icons">
+            <ul class="social-icons">
+               <li class="facebook"><a href="http://www.facebook.com/akakomdevcenter" target="_blank" title="Facebook">Facebook</a></li>
+               <li class="twitter"><a href="http://www.twitter.com/akakomdevcenter" target="_blank" title="Twitter">Twitter</a></li>
+               <li class="rss"><a href="http://feeds.feedburner.com/akakomdevcenter" target="_blank" title="RSS">RSS</a></li>
+            </ul>
+         </div>
+   <!-- Navigation -->
+         <nav>
+            <ul class="nav nav-pills nav-top">
+               <li><a href="#"><i class="icon  icon-file-text-o"></i>Akakom</a></li>
+               <li><a href="#"><i class="icon  icon-user"></i>Forums</a></li>
+               <li><a href="#"><i class="icon  icon-external-link"></i>Shared</a></li>
+            </ul>
+         </nav>
+   <!-- Button -->
+         <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull">
+            <i class="icon icon-bars"></i>
+         </button>
+      </div>
+<!-- MENUS -->
+   <div class="navbar-collapse nav-main-collapse collapse">
+      <div class="container">
+         <nav class="nav-main mega-menu">
+            <ul class="nav nav-pills nav-main" id="mainMenu">
+               <li class="dropdown"><a class="dropdown" href="../../index.html">Home</a></li>   
+               <li class="dropdown"><a class="dropdown" href="../../artikel.html">Articles</a></li>
+               <li class="dropdown"><a class="dropdown" href="../../tutorial.html">Tutorilas</a></li>
+               <li class="dropdown"><a class="dropdown" href="../../modul.html">Modules</a></li>
+               <li class="dropdown"><a class="dropdown" href="../../showcase.html">Showcases</a></li>
+               <li class="dropdown"><a class="dropdown" href="../../event.html">Events</a></li>
+               <li class="dropdown mega-menu-item mega-menu-signin signin" id="headerAccount">
+                  <a class="dropdown-toggle" href="#">More</a>
+                  <ul class="dropdown-menu">
+                     <li><a href="programming.html" title="Desktop Development">Categories</a></li>
+                     <li><a href="contents/csharp/index.html" title="Game Development">Sub Categories</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </div>
+   </header>
+
+
+</div>
+
+
+<!-- #########################################    CONTAINER    #########################################-->
+<!-- CONTENT -->
+<div class="wrapper">
+<!-- Content Left -->
+<div id="leftcol">
+  <div class="mini-logo">
+    <img src="../gambar/android-mini-logo.png" alt="Android Programming Tutorial" />
+  </div>
+  <ul class="menu">
+    <li class="heading">Android Basics</li>
+  </ul>
+<div id="sidebar">
+<div id="scroller">
+  <ul class="menu">
+    <li><a target="_top" href="index.html"><b>Android Home</b></a></li>
+    <li><a target="_top" href="android_overview.html">Android Overview</a></li>
+    <li><a target="_top" href="android_environment_setup.html">Android Environment Setup</a></li>
+    <li><a target="_top" href="android_architecture.html">Android Architecture</a></li>
+    <li><a target="_top" href="android_application_components.html">Application Components</a></li>
+    <li><a target="_top" href="android_hello_world_example.html">Hello World Example</a></li>
+    <li><a target="_top" href="android_resources.html">Android Resources</a></li>
+    <li><a target="_top" href="android_acitivities.html">Android Activities</a></li>
+    <li><a target="_top" href="android_services.html">Android Services</a></li>
+    <li><a target="_top" href="android_broadcast_receivers.html">Android Broadcast Receivers</a></li>
+    <li><a target="_top" href="android_content_providers.html">Android Content Providers</a></li>
+    <li><a target="_top" href="android_fragments.html">Android Fragments</a></li>
+    <li><a target="_top" href="android_intents_filters.html">Android Intents/Filters</a></li>
+  </ul>
+  <ul class="menu">
+    <li class="heading">Android User Interface</li>
+    <li><a target="_top" href="android_user_interface_layouts.html">Android UI Layouts</a></li>
+    <li><a target="_top" href="android_user_interface_controls.html">Android UI Controls</a></li>
+    <li><a target="_top" href="android_event_handling.html">Android Event Handling</a></li>
+    <li><a target="_top" href="android_styles_and_themes.html">Android Styles and Themes</a></li>
+    <li><a target="_top" href="android_custom_components.html">Android Custom Components</a></li>
+  </ul>
+  <ul class="menu">
+    <li class="heading">Android Advanced Concepts</li>
+    <li><a target="_top" href="android_drag_and_drop.html">Android Drag and Drop</a></li>
+    <li><a target="_top" href="android_notifications.html">Android Notifications</a></li>
+    <li><a target="_top" href="android_location_based_services.html">Location Based Services</a></li>
+    <li><a target="_top" href="android_sending_email.html">Android Sending Email</a></li>
+    <li><a target="_top" href="android_sending_sms.html">Android Sending SMS</a></li>
+    <li><a target="_top" href="android_phone_calls.html">Android Phone Calls</a></li>
+    <li><a target="_top" href="android_publishing_application.html">Publishing Android Application</a></li>
+  </ul>
+  <ul class="menu">
+    <li class="heading">Android Useful Examples</li>
+    <li><a target="_top" href="android_alert_dialoges.html">Android Alert Dialoges</a>
+    <li><a target="_top" href="android_animations.html">Android Animations</a>
+    <li><a target="_top" href="android_audio_capture.html">Android Audio Capture</a>
+    <li><a target="_top" href="android_audiomanager.html">Android AudioManager</a>
+    <li><a target="_top" href="android_auto_complete.html">Android Auto Complete</a>
+    <li><a target="_top" href="android_best_practices.html">Android Best Practices</a>
+    <li><a target="_top" href="android_bluetooth.html">Android Bluetooth</a>
+    <li><a target="_top" href="android_camera.html">Android Camera</a>
+    <li><a target="_top" href="android_clipboard.html">Android Clipboard</a>
+    <li><a target="_top" href="android_custom_fonts.html">Android Custom Fonts</a>
+    <li><a target="_top" href="android_data_backup.html">Android Data Backup</a>
+    <li><a target="_top" href="android_developer_tools.html">Android Developer Tools</a>
+    <li><a target="_top" href="android_emulator.html">Android Emulator</a>
+    <li><a target="_top" href="android_facebook_integration.html">Android Facebook Integration</a>
+    <li><a target="_top" href="android_gestures.html">Android Gestures</a>
+    <li><a target="_top" href="android_google_maps.html">Android Google Maps</a>
+    <li><a target="_top" href="android_image_effects.html">Android Image Effects</a>
+    <li><a target="_top" href="android_imageswitcher.html">Android ImageSwitcher</a>
+    <li><a target="_top" href="android_internal_storage.html">Android Internal Storage</a>
+    <li><a target="_top" href="android_jetplayer.html">Android JetPlayer</a>
+    <li><a target="_top" href="android_json_parser.html">Android JSON Parser</a>
+    <li><a target="_top" href="android_linkedin_integration.html">Android Linkedin Integration</a>
+    <li><a target="_top" href="android_loading_spinner.html">Android Loading Spinner</a>
+    <li><a target="_top" href="android_localization.html">Android Localization</a>
+    <li><a target="_top" href="android_login_screen.html">Android Login Screen</a>
+    <li><a target="_top" href="android_mediaplayer.html">Android MediaPlayer</a>
+    <li><a target="_top" href="android_multitouch.html">Android Multitouch</a>
+    <li><a target="_top" href="android_navigation.html">Android Navigation</a>
+    <li><a target="_top" href="android_network_connection.html">Android Network Connection</a>
+    <li><a target="_top" href="android_nfc_guide.html">Android NFC Guide</a>
+    <li><a target="_top" href="android_php_mysql.html">Android PHP/MySQL</a>
+    <li><a target="_top" href="android_progress_circle.html">Android Progress Circle</a>
+    <li><a target="_top" href="android_progressbar.html">Android ProgressBar</a>
+    <li><a target="_top" href="android_push_notification.html">Android Push Notification</a>
+    <li><a target="_top" href="android_renderscript.html">Android RenderScript</a>
+    <li><a target="_top" href="android_rss_reader.html">Android RSS Reader</a>
+    <li><a target="_top" href="android_screen_cast.html">Android Screen Cast</a>
+
+    <li><a target="_top" href="android_sdk_manager.html">Android SDK Manager</a>
+    <li><a target="_top" href="android_sensors.html">Android Sensors</a>
+    <li><a target="_top" href="android_session_management.html">Android Session Management</a>
+    <li><a target="_top" href="android_shared_preferences.html">Android Shared Preferences</a>
+    <li><a target="_top" href="android_sip_protocol.html">Android SIP Protocol</a>
+    <li><a target="_top" href="android_spelling_checker.html">Android Spelling Checker</a>
+    <li><a target="_top" href="android_sqlite_database.html">Android SQLite Database</a>
+    <li><a target="_top" href="android_support_library.html">Android Support Library</a>
+    <li><a target="_top" href="android_testing.html">Android Testing</a>
+    <li><a target="_top" href="android_text_to_speech.html">Android Text to Speech</a>
+    <li><a target="_top" href="android_textureview.html">Android TextureView</a>
+    <li><a target="_top" href="android_twitter_integration.html">Android Twitter Integration</a>
+    <li><a target="_top" href="android_ui_deign.html">Android UI Deign</a>
+    <li><a target="_top" href="android_ui_patterns.html">Android UI Patterns</a>
+    <li><a target="_top" href="android_ui_testing.html">Android UI Testing</a>
+
+    <li><a target="_top" href="android_webview_layout.html">Android WebView Layout</a>
+    <li><a target="_top" href="android_wi_fi.html">Android Wi-Fi</a>
+    <li><a target="_top" href="android_widgets.html">Android Widgets</a>
+    <li><a target="_top" href="android_xml_parsers.html">Android XML Parsers</a>
+  </ul>
+  <ul class="menu">
+    <li class="heading">Android Useful Resources</li>
+    <li><a target="_top" href="android_quick_guide.html">Android Quick Guide</a></li>
+    <li><a target="_top" href="android_useful_resources.html">Android Useful Resources</a></li>
+  </ul>
+</div>
+</div>
+<!-- Content Left 2-->
+<ul class="menu">
+  <li class="sreading">Selected Reading</li>
+  <li><a target="_top" href="#">Developer's Best Practices</a></li>
+  <li><a target="_top" href="#">Effective Resume Writing</a></li>
+  <li><a target="_top" href="#">Computer Glossary</a></li>
+  <li><a target="_top" href="#">Who is Who</a></li>
+</ul>
+</div>
+<!-- Content Middle -->
+<div id="middlecol">
+  <div class="content">
+  <img src="../gambar/android.jpg" alt="Android Programming Tutorial" />
+
+  <hr />
+  <div class="pre-btn">
+    <a href="../index.html">Previous Page</a>
+  </div>
+  <div class="nxt-btn">
+    <a href="android_overview.html">Next Page</a>
+  </div>
+  <div class="clearer"></div>
+  <hr />
+
+  <h1>Android Programming Tutorial</h1>
+    <div><a href="#"><img src="../gambar/headcolor.gif"></a></div>
+  <p>Android is an open source and Linux-based operating system for mobile devices such as smartphones and tablet computers. Android was developed by the <i>Open Handset Alliance</i>, led by Google, and other companies.</p>
+  <p>This tutorial will teach you basic Android programming and will also take you through some advance concepts related to Android application development.</p>
+
+  <h1>Audience</h1>
+    <p>This tutorial has been prepared for the beginners to help them understand basic Android programming. After completing this tutorial you will find yourself at a moderate level of expertise in Android programming from where you can take yourself to next levels.</p>
+  <h1>Prerequisites</h1>
+    <p>Android programming is based on Java programming language so if you have basic understanding on Java programming then it will be a fun to learn Android application development.</p>
+  <hr />
+  <h2>1 - Android Quick Reference Guide</h2>
+    <p>A quick Android reference guide for Android Programmers.</p>
+    <p><a href="#">Android Quick Reference Guide</a></p>
+  <h2>2 - Android Useful Resources</h2>
+    <p>A collection of <i>Android</i> Sites, Books and Articles is given at this page.</p>
+    <p><a href="#">Android Useful Resources</a></p>
+  <h2>3 - Java Tutorials</h2>
+    <p>If you are starting with Java then it's best place to start with.</p>
+    <p><a href="#">Java Tutorials</a></p>
+  <h2>4 - Android Tutorial in PDF</h2>
+    <p>Download a quick Android tutorial in PDF format.</p>
+    <p><a href="#">Android Tutorial in PDF</a></p>
+  <hr />
+  <div class="pre-btn">
+    <a href="#">Previous Page</a>
+  </div>
+  <div class="print-btn">
+    <a href="#" target="_blank">Print Version</a>
+  </div>
+  <div class="nxt-btn">
+    <a href="#">Next Page</a>
+  </div>
+  <div class="clearer"></div>
+  <hr />
+  </div>
+
+<!-- Content Middle2 -->
+  <div class="bottomgooglead">
+  <a href="#"><img src="../gambar/ADC.png"></a>
+  </div>
+</div>
+
+<!-- Content Right -->
+  <div id="rightcol">
+    <div class="addthis">
+      <div class="addthis_toolbox addthis_default_style">
+        Share Buttons
+      </div>
+    </div>
+<!-- AddThis Button END -->
+    <div class="localad">
+      <a rel="nofollow" href="#" target="_blank" title="Online Photo Editing">Local Ads 1</a>
+    </div>
+    <div class="localad">
+      <a rel="nofollow" href="#" target="_blank" title="Online Photo Editing">Local Ads 2</a>
+    </div>
+    <div class="rightgooglead">
+      <div style="padding-bottom:5px;padding-left:5px;">
+        <img src="../gambar/6206704692952329120.png"></a>
+      </div>
+    </div>
+  </div>
+  <div style="clear:both;"></div>
+
+</div>
+
+<!-- #########################################   UNDER LINES   #########################################-->
+   <div class="container">
+      <div class="row center">
+          <hr class="tall" />
+      </div>
+   </div>
+
+<!-- #########################################  == FOOTER ==  #########################################-->
+
+<br>
+   <footer class="inner">
+      <div class="container">
+         <div class="row">
+            <div class="footer-ribon">
+               <span>Extras</span>
+            </div>
+            <div class="col-md-2">
+               <h4>Apps dan Games</h4>
+               <hr>
+                  <ul class="list icons list-unstyled">
+                     <li><a href="https://play.google.com/store/apps/developer?id=Akakom+Dev+Center" target="_blank" rel="nofollow"><img alt="Akakom Dev Center Android Apps" src="../../images/google_play.png" class="mobile-apps"/></a></li>
+                     <li><a href="http://appworld.blackberry.com/webstore/vendor/71236" target="_blank" rel="nofollow"><img alt="Akakom Dev Center Blackberry Apps" src="../../images/blackberry_appworld.png" class="mobile-apps"/></a></li>
+                     <li><a href="https://marketplace.firefox.com/app/flappy-bee" target="_blank" rel="nofollow"><img alt="Akakom Dev Center Firefox Appa" src="../../images/firefox_marketplace.png" class="mobile-apps"/></a></li>
+                     <li><a href="http://www.windowsphone.com/en-us/search?q=akakom+dev+center" target="_blank" rel="nofollow"><img alt="Akakom Dev Center Windows Phone Apps" src="../../images/windows_store.png" class="mobile-apps"/></a></li>
+                  </ul>
+               </hr>
+            </div>
+            <div class="col-md-2">
+               <h4>About us</h4>
+               <hr>
+                  <ul class="list icons list-unstyled">
+                  <li><i class="icon icon-caret-right"></i> <a href="about/index.htm">Community</a></li>
+                  <li><i class="icon icon-caret-right"></i> <a href="about/about_team.htm">Team</a></li>
+                  <li><i class="icon icon-caret-right"></i> <a href="about/about_careers.htm">Careers</a></li>
+                  <li><i class="icon icon-caret-right"></i> <a href="about/about_privacy.htm">Privacy</a></li>
+                  <li><i class="icon icon-caret-right"></i> <a href="about/about_copyright.htm">Copyright</a></li>
+                  <li><i class="icon icon-caret-right"></i> <a href="about_disclaimer.htm">Disclaimer</a></li>
+               </ul>
+               </hr>
+            </div>
+            <div class="col-md-2">
+               <h4>Latest Tutorials</h4>
+               <hr>
+                  <ul class="list icons list-unstyled">
+                     <li><i class="icon icon-caret-right"></i> <a href="#">Unity Shader</a></li>
+                     <li><i class="icon icon-caret-right"></i> <a href="#">Corona SDK</a></li>
+                     <li><i class="icon icon-caret-right"></i> <a href="#">MongoDB</a></li>
+                     <li><i class="icon icon-caret-right"></i> <a href="#">WebworkSDK</a></li>
+                     <li><i class="icon icon-caret-right"></i> <a href="#">Android</a></li>
+                     <li><i class="icon icon-caret-right"></i> <a href="#">Ruby Rails</a></li>
+                  </ul>
+               </hr>
+            </div>
+            <div class="col-md-3">
+                  <div class="contact-details">
+                     <h4>Contact Us</h4>
+                     <hr>
+                        <ul class="contact">
+                           <li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong><a href="http://akakom.ac.id"> STMIK AKAKOM<br/> Jl Raya janti no 143 Yogyakarta, Indonesia</a></p></li>
+                           <li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="mailto:contact@adc.akakom.ac.id"> contact@adc.akakom.ac.id</a></p></li>
+                           <li><p><i class="icon icon-dribbble"></i> <strong>Website:</strong> <a href="http://www.adc.akakom.ac.id"> adc.akakom.ac.id</a></p></li>
+                        </ul>
+                     </hr>
+                  </div>
+
+                  <div class="social-icons">
+                     <ul class="social-icons">
+                        <li class="facebook"><a href="https://www.facebook.com/akakomdevcenter" target="_blank" data-placement="bottom" title="Akakom Dev Center @ Facebook">Facebook</a></li>
+                        <li class="twitter"><a href="http://www.twitter.com/akakomdevcenter" target="_blank" data-placement="bottom"  title="Akakom Dev Center @ Twitter">Twitter</a></li>
+                        <li class="rss"><a href="http://feeds.feedburner.com/akakomdevcenter" target="_blank" data-placement="bottom" title="Akakom Dev Center RSS">RSS</a></li>
+                     </ul>
+                  </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="footer-copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-1">
+                  <a href="../../index.html" class="logo">
+                     <img alt="Akakom Dev Center" class="img-responsive" src="../../images/logo-footer.png">
+                  </a>
+               </div>
+               <div class="col-md-6">
+                  <p>&copy; Copyright 2014. All Rights Reserved.</p>
+               </div>
+               <div class="col-md-4">
+                  <nav id="sub-menu">
+                     <ul>
+                        <li><a href="http://www.adc.akakom.ac.id/about/tutorials_writing.htm">Write for us</a></li>
+                        <li><a href="http://www.adc.akakom.ac.id/about/faq.htm">FAQ's</a></li>
+                        <li><a href="http://www.adc.akakom.ac.id/about/about_helping.htm">Helping</a></li>
+                        <li><a href="http://www.adc.akakom.ac.id/about/contact_us.htm">Contact</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+<!-- #########################################    LIBRARY    #########################################-->
+<script type="text/javascript" src="../../theme/vendor/jquery.js"></script>
+<script type="text/javascript" src="../../theme/js/theme.js"></script>
+<script type="text/javascript" src="../../scripts/urchin.js"></script>
+<script type="text/javascript">
+      _uacct = "UA-232293-6";
+      urchinTracker();
+</script>
+<script type="text/javascript">
+      /* Function to translate the content */
+         function googleTranslateElementInit() {
+              new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                autoDisplay: false,    
+                gaTrack: true,
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+              }, 'translation_widget');
+            }
+            $(document).ready(function() {
+                var self = location.href;
+                filename = self.substring(self.lastIndexOf('.com')+5);
+                if( filename.lastIndexOf('.htm') == -1 ){
+                   filename = filename + "index.htm";
+                }
+                var linktext = $('.sidebar li a[href*= "' + filename + '"]').text();
+                if( linktext.length == 0 ){
+                    filename = $(".parent-file").text(); 
+                }
+                if( filename.lastIndexOf('whoiswho') != -1 ){
+                    return;
+                }
+                $('.sidebar li a[href*= "' + filename + '"]').css("color", "");
+                $('.sidebar li a[href*= "' + filename + '"]').css("background-color", "#d6d6d6");
+                if( $('.middle-col').height() < $('.sidebar').height() && (window.innerWidth > 991)){
+                     $('.middle-col').css("height", $('.sidebar').height() + 50 );
+                }
+            });
+</script>
+<!-- Google Analytics -->
+<script src="#"></script>
+</div>
+</body>
+</html>
